@@ -1,0 +1,30 @@
+'''
+x=10**-15
+e=1
+while x+e!=x:
+    e=e/10
+print(e)'''
+
+task2
+
+'''xi2=4
+xi1=4.25
+xi=0
+i=1
+while i<30:
+    xi=108-(815-1500/xi2)/xi1
+    a=xi1
+    xi1=xi
+    xi2=a
+    i+=1
+print(xi1)'''
+
+task3
+
+'''from decimal import Decimal, getcontext
+getcontext().prec = 2
+s=Decimal(input())
+x=Decimal(input())
+y=Decimal(input())
+P=s*(Decimal(Decimal((1+x/100)**1/y)**(12*y)*(((1+x/100)**1/y)-1)/(((1+x/100)**1/y)**(12*y)-1)))
+print(P)'''
